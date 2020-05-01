@@ -14,6 +14,9 @@ function destructivelyAppendKitten(value){
 function destructivelyPrependKitten(value){
   return kittens.unshift(value);
 }
+function removeLastKitten(){
+  const removeLastKitenArray= kittens.slice(-1);
+}
 function destructivelyRemoveLastKitten (){
   return kittens.pop();
 }
