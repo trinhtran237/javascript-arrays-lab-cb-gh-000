@@ -13,3 +13,6 @@ function destructivelyPrependKitten(value){
 function destructivelyRemoveLastKitten (){
   return kittens.pop();
 }
+function destructiveRemoveFirstKitten(){
+   const result = kittens.slide();
+}
