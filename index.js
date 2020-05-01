@@ -18,6 +18,7 @@ function destructivelyPrependKitten(value){
 // remove Last Kittens
 function removeLastKitten(){
   const removeLastKitenArray= kittens.slice(-1);
+  return removeLastKitenArray;
 }
 function destructivelyRemoveLastKitten (){
   return kittens.pop();
