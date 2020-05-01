@@ -7,3 +7,6 @@ function appendKitten ( value){
 function destructivelyAppendKitten(value){
   return kittens.push(value);
 }
+function destructivelyPrependKitten(value){
+  return kittens.unshift(value);
+}
