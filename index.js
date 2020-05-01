@@ -25,5 +25,11 @@ function destructivelyRemoveLastKitten (){
 
 //remove First Kittens
 function destructivelyRemoveFirstKitten(){
+    return kittens.shift();
+   
+}
+function removeFirstKitten(){
    const result = kittens.slice();
+   return result;
+  
 }
