@@ -30,7 +30,7 @@ function destructivelyRemoveFirstKitten(){
 
 }
 function removeFirstKitten(){
-   const result = kittens.slice();
+   const result = kittens.slice(1,kittens.length);
    return result;
 
 }
