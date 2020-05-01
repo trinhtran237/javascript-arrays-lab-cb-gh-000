@@ -5,7 +5,7 @@ function appendKitten ( value){
   return [...kittens,value];
 }
 function prependKitten(value){
-  reuturn [value,...kittens];
+  return [value,...kittens];
 }
 
 function destructivelyAppendKitten(value){
