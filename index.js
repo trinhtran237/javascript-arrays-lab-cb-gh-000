@@ -14,12 +14,16 @@ function destructivelyAppendKitten(value){
 function destructivelyPrependKitten(value){
   return kittens.unshift(value);
 }
+
+// remove Last Kittens
 function removeLastKitten(){
   const removeLastKitenArray= kittens.slice(-1);
 }
 function destructivelyRemoveLastKitten (){
   return kittens.pop();
 }
-function destructiveRemoveFirstKitten(){
+
+//remove First Kittens
+function destructivelyRemoveFirstKitten(){
    const result = kittens.slide();
 }
