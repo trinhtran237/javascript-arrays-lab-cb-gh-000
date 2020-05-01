@@ -25,5 +25,5 @@ function destructivelyRemoveLastKitten (){
 
 //remove First Kittens
 function destructivelyRemoveFirstKitten(){
-   const result = kittens.slide();
+   const result = kittens.slice();
 }
